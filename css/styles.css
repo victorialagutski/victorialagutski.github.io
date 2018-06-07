@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  line-height: 1.4em;
+}
+
+h1 {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.row {
+  width: 100%;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: 1px solid #d0d0d0;
+  position: relative;
+
+}
+
+.meal-type {
+  border: 1px solid #d0d0d0;
+  width: 100px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.yellow {
+  background-color: papayawhip;
+}
+
+.pink {
+  background-color: #ff6f6f;
+}
+
+.green {
+  background-color: #c6eaba;
+}
+
+.meal-description{
+  padding: 20px;
+  padding-top: 60px;
+}
+
+#txt-white {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.3%;
+    float: left;
+    padding: 0 15px;
+  }
+
+  .col-lg-4:first-child {
+    padding-left: 30px;
+  }
+
+  .col-lg-4:last-child {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px 15px;
+  }
+
+  .col-md-6:first-child {
+    padding-left: 30px;
+  }
+
+  .col-md-6:nth-child(2) {
+    padding-right: 30px;
+  }
+
+  .col-md-12 {
+    width: 100%;
+    float: left;
+    padding: 15px 30px 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+    padding: 0 50px 25px 50px;
+  }
+}
